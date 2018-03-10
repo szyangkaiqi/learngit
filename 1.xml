@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resultMap id="BaseResultMap" type="com.bizm.pojo.dto.PayLineDTO" >
+     <result column="TASK_SERVICE_ID" property="taskServiceId" jdbcType="BIGINT"/>
+        <result column="TASK_CODE" property="taskCode" jdbcType="VARCHAR"/>
+        <result column="SERVICE_ID" property="serviceId" jdbcType="VARCHAR"/>
+        <result column="ESB_USERNAME" property="esbUserName" jdbcType="VARCHAR"/>
+        <result column="ESB_PASSWORD" property="esbPassword" jdbcType="VARCHAR"/>
+        <result column="ESB_SID" property="esbSid" jdbcType="VARCHAR"/>
+        <result column="ESB_SUBID" property="esbSubId" jdbcType="VARCHAR"/>
+        <result column="ESB_ARG_1" property="esbArg1" jdbcType="VARCHAR"/>
+        <result column="ESB_ARG_2" property="esbArg2" jdbcType="VARCHAR"/>
+        <result column="ESB_ARG_3" property="esbArg3" jdbcType="VARCHAR"/>
+        <result column="ESB_ARG_4" property="esbArg4" jdbcType="VARCHAR"/>
+        <result column="ESB_ARG_5" property="esbArg5" jdbcType="VARCHAR"/>
+        <result column="CREATE_DATE" property="createDate" jdbcType="DATE"/>
+        <result column="BU_CODE" property="buCode" jdbcType="VARCHAR"/>
+        <result column="ESB_URL" property="esbUrl" jdbcType="VARCHAR"/>
+  </resultMap>
